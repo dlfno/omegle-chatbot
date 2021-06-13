@@ -257,7 +257,7 @@ if __name__ == '__main__':
 
 	while True:
 		try:
-				chatbot.start()
+			chatbot.start()
 		except Exception as err:
 			print('An error occured: ')
 			print(err)
