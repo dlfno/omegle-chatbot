@@ -261,3 +261,6 @@ if __name__ == '__main__':
 		except Exception as err:
 			print('An error occured: ')
 			print(err)
+
+# TODO Solve bug that is skipping chats where stranger don't send message first
+# TODO Get the last message of user as a concatenation of all sent messages after bot last message
